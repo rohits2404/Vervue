@@ -9,6 +9,7 @@ import { Calendar, Clock, Sparkles, Video } from "lucide-react";
 import { formatDate, formatDuration, formatTime } from "@/lib/helpers";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import { STATUS_STYLES } from "@/lib/data";
 
 export function AppointmentCard({ booking, mode, isPast = false }) {
     const [feedbackOpen, setFeedbackOpen] = useState(false);
