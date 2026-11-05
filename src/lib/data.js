@@ -66,7 +66,7 @@ export const PLANS = [
         price: "$29",
         credits: "5 Credits / Month",
         featured: true,
-        planId: process.env.STARTER_PLAN_ID,
+        planId: process.env.NEXT_PUBLIC_STARTER_PLAN_ID,
         slug: "starter",
         features: [
             "5 Mock Interview Sessions",
@@ -81,7 +81,7 @@ export const PLANS = [
         price: "$69",
         credits: "15 Credits / Month",
         featured: false,
-        planId: process.env.PRO_PLAN_ID,
+        planId: process.env.NEXT_PUBLIC_PRO_PLAN_ID,
         slug: "pro",
         features: [
             "15 Mock Interview Sessions",
