@@ -113,7 +113,7 @@ export function InterviewerCard({ interviewer }) {
                         className="shrink-0 border-amber-400/20 text-amber-400 hover:bg-amber-400/10 hover:border-amber-400/40"
                         asChild
                     >
-                        <Link href={`/interviewers/${id}`}>View profile →</Link>
+                        <Link href={`/interviewers/${id}`}>View Profile →</Link>
                     </Button>
                 </div>
             </CardContent>
